@@ -40,7 +40,7 @@ def setup_chatbot(vectorstore):
 st.title("Conversational PDF Chatbot")
 
 # Specify the path to the FAISS vector store
-vectorstore_path = r"C:\Users\enrico\Desktop\Test\02_Model_CPU\faiss_vectorstore.pkl"
+vectorstore_path = r"faiss_vectorstore.pkl"
 
 # Load the existing vector store
 vectorstore = load_vectorstore(vectorstore_path)
